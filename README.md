@@ -20,15 +20,15 @@ python -m pip install epubclozer
 
 ## How to use
 
-From the command line:
-
-Create a close for each unique word in epub:
+Create a cloze for each unique word in epub:
 
 ```shell
 python -m epubclozer --lang "en" --path "C:/path/to/book.epub"
 ```
 
-Ignore [stop words](https://en.wikipedia.org/wiki/Stop_word) such as "the, is, at, which" in English. Note this will only work effectively in you pass the target language `--lang` as well.
+Ignore [stop words](https://en.wikipedia.org/wiki/Stop_word) by adding the `--exclude-stop-words` option. 
+
+Note this will only work effectively in you pass the target language `--lang` as well.
 
 ```shell
 python -m epubclozer --lang "es" --path "C:/path/to/book.epub" --exclude-stop-words
