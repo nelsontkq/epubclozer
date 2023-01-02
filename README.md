@@ -1,7 +1,7 @@
 
-# Ankify
+# Epub Clozer
 
-Turn an epub into Anki flashcards
+Turn an epub into Anki cloze flashcards
 
 ## Description
 
