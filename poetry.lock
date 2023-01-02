@@ -95,20 +95,6 @@ files = [
 numpy = ">=1.15.0"
 
 [[package]]
-name = "bs4"
-version = "0.0.1"
-description = "Dummy package for Beautiful Soup"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "bs4-0.0.1.tar.gz", hash = "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"},
-]
-
-[package.dependencies]
-beautifulsoup4 = "*"
-
-[[package]]
 name = "cached-property"
 version = "1.5.2"
 description = "A decorator for caching properties in classes."
@@ -1195,4 +1181,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "3d0654d626e9fa27303109525c3a4ad5a5eb10f67668f0ccbc4efe74cc0a357d"
+content-hash = "b4ad65386eb1f8d279ab9aa2062188420b9f48cd12aeff995195d088e751af92"

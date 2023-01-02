@@ -25,7 +25,7 @@ From the command line:
 Create a close for each unique word in epub:
 
 ```shell
-epubclozer --lang "en" --path "C:/path/to/book.epub"
+python -m epubclozer --lang "en" --path "C:/path/to/book.epub"
 ```
 
 Ignore specific words by creating an ignore file
@@ -50,7 +50,7 @@ with
 ```
 
 ```shell
-epubclozer --lang "es" --path "C:/path/to/book.epub" --ignore-file "C:/path/to/ignore.txt"
+python -m epubclozer --lang "es" --path "C:/path/to/book.epub" --ignore-file "C:/path/to/ignore.txt"
 ```
 
 See `epubclozer --help` for all options

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "epubclozer"
-version = "0.1.1"
+version = "1.0.2"
 description = "Turn an epub into Anki flashcards"
 authors = ["Nelson <nelson@truran.dev>"]
 readme = "README.md"
@@ -10,7 +10,7 @@ python = "^3.11"
 ebooklib = "^0.18"
 genanki = "^0.13.0"
 spacy = "^3.4.4"
-bs4 = "^0.0.1"
+beautifulsoup4 = "^4.11.1"
 
 
 [tool.poetry.group.dev.dependencies]
