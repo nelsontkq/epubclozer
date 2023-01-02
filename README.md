@@ -28,29 +28,10 @@ Create a close for each unique word in epub:
 python -m epubclozer --lang "en" --path "C:/path/to/book.epub"
 ```
 
-Ignore specific words by creating an ignore file
-
-`ignore.txt`
-```
-be
-to
-of
-and
-a
-in
-that
-have
-I
-it
-for
-not
-on
-with
-...
-```
+Ignore [stop words](https://en.wikipedia.org/wiki/Stop_word) such as "the, is, at, which" in English. Note this will only work effectively in you pass the target language `--lang` as well.
 
 ```shell
-python -m epubclozer --lang "es" --path "C:/path/to/book.epub" --ignore-file "C:/path/to/ignore.txt"
+python -m epubclozer --lang "es" --path "C:/path/to/book.epub" --exclude-stop-words
 ```
 
 See `epubclozer --help` for all options
